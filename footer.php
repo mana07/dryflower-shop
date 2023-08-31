@@ -8,7 +8,7 @@
           </div>-->
             <div id="footer-link">
               <a href="<?php echo home_url(); ?>/" class="footer-a" id="footer-about">about</a>
-              <a href="<?php echo home_url(); ?>/item" class="footer-a" id="footer-item">item</a>
+              <a href="<?php echo home_url(); ?>/product-category/product" class="footer-a" id="footer-item">item</a>
               <a href="<?php echo home_url(); ?>/workshop" class="footer-a" id="footer-workshop">work shop</a>
               <a href="<?php echo home_url(); ?>/contact" class="footer-a" id="footer-contact">contact</a>
             </div>
@@ -25,8 +25,8 @@
                 <p id="sns">\SNSはこちら/</p>
               </div>
               <div id="sns-icon">
-                <a href=""><img id="Insta" src="<?php echo get_template_directory_uri(); ?>/images/Instagram_Glyph_Black.png" alt="instagramのリンク" style="width: 50px; height: 50px; margin-right: 20px;"></a>
-                <a href=""><img id="Twitter" src="<?php echo get_template_directory_uri(); ?>/images/2021 Twitter logo - black.png" alt="Twitterのリンク" style="width: 60px; height: 50px;"></a>
+                <a href=""><img id="Insta" src="<?php echo get_template_directory_uri(); ?>/images/Instagram_Glyph_Black.png" alt="instagramのリンク" style="width: 40px; height: 40px; margin-right: 20px;"></a>
+                <a href=""><img id="Twitter" src="<?php echo get_template_directory_uri(); ?>/images/2021 Twitter logo - black.png" alt="Twitterのリンク" style="width: 45px; height: 40px;"></a>
               </div>
             </div>
           <!--<div>

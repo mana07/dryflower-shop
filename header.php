@@ -23,7 +23,7 @@
           <a href="<?php echo home_url(); ?>/" id="eternite" style="vertical-align:middle;">eternite</a>
           <div id="nav-a">
             <a href="<?php echo home_url(); ?>/" id="nav-about">about</a>
-            <a href="<?php echo home_url(); ?>/item" id="nav-item">item</a>
+            <a href="<?php echo home_url(); ?>/product-category/product" id="nav-item">item</a>
             <a href="<?php echo home_url(); ?>/workshop" id="nav-workshop">work shop</a>
             <a href="<?php echo home_url(); ?>/contact" id="nav-contact">contact</a><!--style="vertical-align: -webkit-baseline-middle;"-->
           </div>
@@ -33,7 +33,7 @@
         <nav id="nav-sp">
          <img id="close" src="<?php echo get_template_directory_uri(); ?>/images/menu-close.png" alt="ナビゲーションを閉じる">
          <a id="a-about" class="menu" href="<?php echo home_url(); ?>/" >about</a>
-         <a class="menu" href="<?php echo home_url(); ?>/item">item</a>
+         <a class="menu" href="<?php echo home_url(); ?>/product-category/product">item</a>
          <a class="menu" href="<?php echo home_url(); ?>/workshop">work shop
            </a>
          <a id="a-contact" class="menu" href="<?php echo home_url(); ?>/contact"

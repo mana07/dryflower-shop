@@ -57,8 +57,8 @@
               <p class="itemtext-2">¥3,500～</p>
             </div>
          </div>
-         <div>
-            <a href="<?php echo home_url(); ?>/item"><img id="button-more1" class="button" src="<?php echo get_template_directory_uri(); ?>/images/more botton.png" alt="moreのボタン"></a>
+         <div id="more-box">
+            <a href="<?php echo home_url(); ?>/item"><img id="button-more1" class="button-pink" src="<?php echo get_template_directory_uri(); ?>/images/more botton.png" alt="moreのボタン"></a>
          </div>
         </section>
         <div id="work-h2" class="sub-title scroll-up">
@@ -89,7 +89,7 @@
           </ul>
           <div class="scroll-right">
             <img class="dot-line" src="<?php echo get_template_directory_uri(); ?>/images/dot.png" alt="ドット" style="width: 74%;">
-            <a href="<?php echo home_url(); ?>/workshop"><img class="button" src="<?php echo get_template_directory_uri(); ?>/images/more botton.png" alt="moreのボタン"></a>
+            <a href="<?php echo home_url(); ?>/workshop"><img class="button-pink" src="<?php echo get_template_directory_uri(); ?>/images/more botton.png" alt="moreのボタン"></a>
           </div>
           <div id="date" class="small-title scroll-left">
             <span>Date-日程-</span>
@@ -105,8 +105,8 @@
                 <span><nobr>ブーケやリース、ハーバリウムからお好きなものをお作り頂けます。</nobr>（料金は一律5000円）</span>
                 <p>10:00～12:00、14:00～16:00、17:00～19:00　　※完全予約制</p>
               </div>
-              <div>
-                <a href="<?php echo home_url(); ?>/contact"><img id="res-button" class="button" src="<?php echo get_template_directory_uri(); ?>/images/reserved botton.png" alt="予約ボタン"></a>
+              <div id="button-box">
+                <a href="<?php echo home_url(); ?>/contact"><img id="res-button-top" class="button-pink" src="<?php echo get_template_directory_uri(); ?>/images/reserved botton.png" alt="予約ボタン"></a>
               </div>
             </div>
           </div>

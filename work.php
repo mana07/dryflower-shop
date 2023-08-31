@@ -18,19 +18,22 @@ Template Name: ワークショップ
               スタッフがお手伝いいたします♪</p>
           </div>
           <div id="workshop-block">
-            <div id="workshop-img2">
-              <img class="scroll-left" src="<?php echo get_template_directory_uri(); ?>/images/workshop-img.png" alt="作業中の写真" style="width: 70%;">
+            <div class="workshop-img2">
+              <img id="img" class="scroll-left" src="<?php echo get_template_directory_uri(); ?>/images/workshop-img.png" alt="作業中の写真">
             </div>
             <div  id="title-text" class="scroll-right">
-              <div id="workshop-h3">
+              <div class="workshop-h3">
                 <h3>概要</h3>
               </div>
-              <div id="workshop-text">
+              <div class="workshop-text">
                 <p>料金：一律5000円</p>
                 <p>参加方法：完全予約制</p>
                 <p>日程：不定期開催</p>
                 <p>時間：1時間半</p>
               </div>
+            </div>
+            <div class="workshop-img2">
+              <img id="img2" class="scroll-right" src="<?php echo get_template_directory_uri(); ?>/images/workshop-img-2.png">
             </div>
             <!--<div>
               <img src="images/三角.png" alt="2つの三角">
@@ -74,8 +77,8 @@ Template Name: ワークショップ
                 <span><nobr>ブーケやリース、ハーバリウムからお好きなものをお作り頂けます。</nobr>（料金は一律5000円）</span>
                 <p>10:00～12:00、14:00～16:00、17:00～19:00　　※完全予約制</p>
               </div>
-              <div>
-                <a href="<?php echo home_url(); ?>/contact"><img id="res-button" class="button" src="<?php echo get_template_directory_uri(); ?>/images/reserved botton.png" alt="予約ボタン"></a>
+              <div id="button-box">
+                <a href="<?php echo home_url(); ?>/contact"><img id="res-button" class="button-pink" src="<?php echo get_template_directory_uri(); ?>/images/reserved botton.png" alt="予約ボタン"></a>
               </div>
             </div>
           </div>

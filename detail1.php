@@ -30,7 +30,7 @@ Template Post Type: post
                   <span class="add-button">+</span>
                 </div>
                 <div id="div-cart">
-                  <a id="cart" href="">かごに入れる</a>
+                  <a class="button" href="">かごに入れる</a>
                 </div>
              </div>
             <p id="notice">※受注生産のため発送までにお時間を頂きます。ご了承の上ご購入ください。</p>

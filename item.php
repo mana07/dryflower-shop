@@ -26,12 +26,13 @@ Template Name: アイテム
             ?>
             <?php foreach($posts as $post): ?>
               <?php setup_postdata($post);?>
+              <a class="fade item-wrapper item" href="<?php echo get_permalink(); ?>">
                 <div class="scroll-up">
-                  <a class="fade" href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail( 'medium', ['class' => 'item1block-img'] ); ?></a>
-                  <p><a class="itemtext-1" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
-                  <p class="itemtext-2"><?php echo post_custom('price'); ?></p>
+                    <?php the_post_thumbnail( 'medium', ['class' => 'item1block-img'] ); ?>
+                    <p class="itemtext-1"><?php the_title(); ?></p>
+                    <p class="itemtext-2"><?php echo post_custom('price'); ?></p>
                 </div>
-               
+              </a>
             <?php endforeach; ?>
             <?php wp_reset_postdata(); ?>
           </div>
